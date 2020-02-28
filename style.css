@@ -17,7 +17,7 @@ body{
 	z-index: 10000;
 	transition-duration:200ms;
 	transition-property:height;
-
+    min-width: 500px;
 }
 .top-menu-btn{
 	position: relative;
@@ -192,25 +192,15 @@ color: #FFFFFF;
 color: #FFFFFF;
 }
 .box5-card{
-	position: absolute;
+	position: relative;
 	width: 450px;
-height: 730px;
-top: 100px;
 color: #fff;
 text-align: center;
 background-color: #222;
 font-size: 25px;
 overflow: hidden;
 }
-#box5-card1{
-	right: 51%;
 
-}
-#box5-card2{
-	left: 51%;
-}
-#box5{
-	height: 1000px;
 }
 .box5-card a{
 text-decoration: none;
@@ -439,9 +429,35 @@ transform: scale(1.05);
 box-shadow: 0 0 30px 10px #000;
 z-index: 1;
 }
-
-
-
+@media(max-width: 850px){
+	#box6-more{
+		width: 90%;
+		margin: 0;
+	}
+}
+@media(max-width: 1050px){
+	.box{
+		width: 500px;
+	}
+	.top-menu{
+		width: 500px;
+		}
+	#top{
+		width: 500px;
+	}
+	.middle{
+		width: 500px;
+	}
+}
+@media(max-width: 850px){
+	#box6-more{
+		width: 100%;
+		margin: 0;
+	}
+	#box6-title{
+		
+	}
+}
 
 
 
